@@ -81,7 +81,7 @@ class TextHandler:
 # Create a TextHandler object
 th = TextHandler()
 # Uncomment the following line to fix the input file formatting if necessary
-# th.fix_file('courses.txt')
+th.fix_file('courses.txt')
 # Read the course data from the input file
 course_map, prerequisites = th.read_courses('courses.txt')
 # Create a Graph object with the number of courses as vertices
